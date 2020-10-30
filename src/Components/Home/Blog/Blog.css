@@ -1,0 +1,34 @@
+.blog-skills {
+    margin: 0;
+    padding: 0;
+}
+
+.blog-skills .skill-item {
+    list-style: none;
+    display: inline-block;
+    padding: 3px 8px;
+    background-color: #4B5769;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.single-blog {
+    border: none;
+    background-color: #0A192F
+}
+
+.single-blog a {
+    text-decoration: none;
+}
+
+.blog-text {
+    background-color: #172A45;
+}
+
+.blog-footer {
+    background-color: #162943;
+    justify-content: space-between;
+    align-items: center;
+}

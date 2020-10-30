@@ -1,0 +1,30 @@
+.section-title {
+    justify-content: space-between;
+}
+
+.section-title h2 {
+    font-size: calc(14px + 2vw);
+    background-color: #0A192F;
+}
+
+.right-section a {
+    z-index: 100;
+}
+
+.section-title-btn {
+    background-color: #0A192F;
+    border: 1px solid #64FFB9;
+    border-radius: 5px;
+}
+
+.section-title-btn:hover {
+    background-color: #133040 !important;
+    color: #64ffda !important;
+}
+
+.section-line {
+    height: 1px;
+    background-color: #303c55;
+    margin-left: auto;
+    margin-top: 5px;
+}

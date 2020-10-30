@@ -15,3 +15,7 @@ body {
 .mono-color {
   color: #64ffda;
 }
+
+.section-padding {
+  padding: 80px 0;
+}

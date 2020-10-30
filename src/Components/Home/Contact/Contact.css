@@ -1,0 +1,18 @@
+.contact-title {
+    font-size: calc(12px + 3vw);
+    font-weight: 700;
+}
+
+.contact-description {
+    font-size: 18px;
+}
+
+.footer-name {
+    text-decoration: none;
+    transition: .35s
+}
+
+.footer-name:hover {
+    text-decoration: none;
+    color: #64FFDA !important;
+}
