@@ -1,5 +1,3 @@
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Contact.css'
 
@@ -13,10 +11,7 @@ const Contact = () => {
                 <a className="btn hero-btn touch-btn my-5 py-2 px-3 py-md-3 px-md-5 mono-text" href="#">Get In Touch</a>
             </div>
 
-            <div className="footer mt-5 pt-5 text-center text-white-50 mono-text ">
 
-                <a className="footer-name text-white-50" href="#"><FontAwesomeIcon icon={faGithub} /><br /><small>Built by Abu Hasan Rumi</small></a>
-            </div>
 
         </div>
     );

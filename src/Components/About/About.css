@@ -1,0 +1,16 @@
+.about-text {
+    font-size: 18px;
+}
+
+.wrapper {}
+
+.about-img {
+    max-height: 20vw;
+    border-radius: 5px;
+    box-shadow: 25px 25px 0px 0px #64F1A8;
+    transition: .35s
+}
+
+.about-img:hover {
+    box-shadow: 15px 15px 0px 0px #64F1A8;
+}
