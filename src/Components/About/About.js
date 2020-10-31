@@ -26,12 +26,21 @@ const About = () => {
                             <li className="skill-item">Bootstrap4</li>
                             <li className="skill-item">HTML5</li>
                             <li className="skill-item">CSS3</li>
+                            <li className="skill-item">JavaScript</li>
+                            <li className="skill-item">ES6</li>
                             <li className="skill-item">Material UI</li>
                             <li className="skill-item">REST API</li>
+                            <li className="skill-item">CRUD Operation</li>
+                            <li className="skill-item">Heroku</li>
+                            <li className="skill-item">Netlify</li>
+                            <li className="skill-item">Redux</li>
+                            <li className="skill-item">VSCode</li>
+                            <li className="skill-item">Git</li>
+                            <li className="skill-item">Gatsby.JS</li>
                         </ul>
                     </div>
-                    <div className="col-md-6 d-flex align-items-center ">
-                        <div className="wrapper m-auto">
+                    <div className="col-md-6 d-flex align-items-center my-5 pt-2">
+                        <div className="wrapper m-auto ">
                             <img className="img-fluid about-img" src={rumi} alt="" />
                         </div>
 
