@@ -21,7 +21,7 @@ const Project = () => {
                     <div className="row d-flex align-items-center">
                         <div className="col-md-7">
                             <div className="project-img">
-                                <a href="https://creative-agency4.web.app/"><img className="img-fluid" src={creativeAgency} alt="" /></a>
+                                <a href="https://creative-agency4.web.app/"><img className="img-fluid" src={creativeAgency} alt="Creative Agency" /></a>
                             </div>
                         </div>
                         <div className="col-md-5">
@@ -44,8 +44,8 @@ const Project = () => {
                                     <li className="skill-item">CRUD</li>
                                 </ul>
                                 <div className="project-links mono-text">
-                                    <a href="https://github.com/abuhasanrumi/creative-agency-client" target="_blank"><small>Client-side: </small><FontAwesomeIcon icon={faGithub} /></a>
-                                    <a href="https://github.com/abuhasanrumi/creative-agency-server" target="_blank"><small>Server-side: </small><FontAwesomeIcon icon={faGithub} /></a>
+                                    <a href="https://github.com/abuhasanrumi/creative-agency-client" target="_blank" rel="noopener noreferrer"><small>Client-side: </small><FontAwesomeIcon icon={faGithub} /></a>
+                                    <a href="https://github.com/abuhasanrumi/creative-agency-server" target="_blank" rel="noopener noreferrer"><small>Server-side: </small><FontAwesomeIcon icon={faGithub} /></a>
                                     <a href="https://creative-agency4.web.app/"><small>Live: </small><FontAwesomeIcon icon={faLink} /></a>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ const Project = () => {
                     <div className="row d-flex align-items-center">
                         <div className="col-md-7 order-md-2">
                             <div className="project-img">
-                                <a href="https://volunteer-network1.netlify.app/"><img className="img-fluid" src={volunteer} alt="" /></a>
+                                <a href="https://volunteer-network1.netlify.app/"><img className="img-fluid" src={volunteer} alt="Volunteer Network" /></a>
                             </div>
                         </div>
                         <div className="col-md-5 order-md-1">
@@ -79,9 +79,9 @@ const Project = () => {
                                     <li className="skill-item">CRUD</li>
                                 </ul>
                                 <div className="project-links mono-text">
-                                    <a href="https://github.com/abuhasanrumi/volunteer-network" target="_blank"><small>Client-side: </small><FontAwesomeIcon icon={faGithub} /></a>
-                                    <a href="https://github.com/abuhasanrumi/volunteer-network-server" target="_blank"><small>Server-side: </small><FontAwesomeIcon icon={faGithub} /></a>
-                                    <a href="https://volunteer-network1.netlify.app/" target="_blank"><small>Live: </small><FontAwesomeIcon icon={faLink} /></a>
+                                    <a href="https://github.com/abuhasanrumi/volunteer-network" target="_blank" rel="noopener noreferrer"><small>Client-side: </small><FontAwesomeIcon icon={faGithub} /></a>
+                                    <a href="https://github.com/abuhasanrumi/volunteer-network-server" target="_blank" rel="noopener noreferrer"><small>Server-side: </small><FontAwesomeIcon icon={faGithub} /></a>
+                                    <a href="https://volunteer-network1.netlify.app/" target="_blank" rel="noopener noreferrer"><small>Live: </small><FontAwesomeIcon icon={faLink} /></a>
                                 </div>
                             </div>
                         </div>
@@ -91,7 +91,7 @@ const Project = () => {
                     <div className="row d-flex align-items-center">
                         <div className="col-md-7">
                             <div className="project-img">
-                                <a href="https://travel-guru-rumi.netlify.app/"><img className="img-fluid" src={travel} alt="" /></a>
+                                <a href="https://travel-guru-rumi.netlify.app/"><img className="img-fluid" src={travel} alt="Travel Guru" /></a>
                             </div>
                         </div>
                         <div className="col-md-5">
@@ -111,8 +111,8 @@ const Project = () => {
                                     <li className="skill-item">CSS3</li>
                                 </ul>
                                 <div className="project-links mono-text">
-                                    <a href="https://github.com/abuhasanrumi/travel-guru" target="_blank"><small>Client-side: </small><FontAwesomeIcon icon={faGithub} /></a>
-                                    <a href="https://travel-guru-rumi.netlify.app/" target="_blank"><small>Live: </small><FontAwesomeIcon icon={faLink} /></a>
+                                    <a href="https://github.com/abuhasanrumi/travel-guru" target="_blank" rel="noopener noreferrer"><small>Client-side: </small><FontAwesomeIcon icon={faGithub} /></a>
+                                    <a href="https://travel-guru-rumi.netlify.app/" target="_blank" rel="noopener noreferrer"><small>Live: </small><FontAwesomeIcon icon={faLink} /></a>
                                 </div>
                             </div>
                         </div>
@@ -122,7 +122,7 @@ const Project = () => {
                     <div className="row d-flex align-items-center">
                         <div className="col-md-7 order-md-2">
                             <div className="project-img">
-                                <a href="https://abuhasanrumi.github.io/RayBim-New/"><img className="img-fluid" src={raybim} alt="" /></a>
+                                <a href="https://abuhasanrumi.github.io/RayBim-New/"><img className="img-fluid" src={raybim} alt="RayBim Technologies" /></a>
                             </div>
                         </div>
                         <div className="col-md-5 order-md-1">
@@ -138,8 +138,8 @@ const Project = () => {
                                     <li className="skill-item">CSS3</li>
                                 </ul>
                                 <div className="project-links mono-text">
-                                    <a href="https://github.com/abuhasanrumi/RayBim-New" target="_blank"><small>Client-side: </small><FontAwesomeIcon icon={faGithub} /></a>
-                                    <a href="https://abuhasanrumi.github.io/RayBim-New/" target="_blank"><small>Live: </small><FontAwesomeIcon icon={faLink} /></a>
+                                    <a href="https://github.com/abuhasanrumi/RayBim-New" target="_blank" rel="noopener noreferrer"><small>Client-side: </small><FontAwesomeIcon icon={faGithub} /></a>
+                                    <a href="https://abuhasanrumi.github.io/RayBim-New/" target="_blank" rel="noopener noreferrer"><small>Live: </small><FontAwesomeIcon icon={faLink} /></a>
                                 </div>
                             </div>
                         </div>

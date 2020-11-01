@@ -16,7 +16,7 @@ const ProjectsPage = () => {
                 <div className="projects">
                     <div className="row ">
                         <div className="card my-4 single-blog col-md-6 col-lg-4">
-                            <a target="_blank" className="text-white" href="https://creative-agency4.web.app/">
+                            <a target="_blank" rel="noopener noreferrer" className="text-white" href="https://creative-agency4.web.app/">
                                 <img className="card-img-top" src={project1} alt="Card image cap" />
                                 <div className="card-body blog-text">
                                     <h5 className="card-title blog-title">Creative Agency</h5>
@@ -47,7 +47,7 @@ const ProjectsPage = () => {
                             </a>
                         </div>
                         <div className="card my-4 single-blog col-md-6 col-lg-4">
-                            <a target="_blank" className="text-white" href="https://volunteer-network1.netlify.app/">
+                            <a target="_blank" rel="noopener noreferrer" className="text-white" href="https://volunteer-network1.netlify.app/">
                                 <img className="card-img-top" src={project2} alt="Card image cap" />
                                 <div className="card-body blog-text">
                                     <h5 className="card-title blog-title">Volunteer Network</h5>
@@ -77,7 +77,7 @@ const ProjectsPage = () => {
                             </a>
                         </div>
                         <div className="card my-4 single-blog col-md-6 col-lg-4">
-                            <a target="_blank" className="text-white" href="https://travel-guru-rumi.netlify.app/">
+                            <a target="_blank" rel="noopener noreferrer" className="text-white" href="https://travel-guru-rumi.netlify.app/">
                                 <img className="card-img-top" src={project3} alt="Card image cap" />
                                 <div className="card-body blog-text">
                                     <h5 className="card-title blog-title">Travel Guru</h5>
@@ -106,7 +106,7 @@ const ProjectsPage = () => {
                             </a>
                         </div>
                         <div className="card my-4 single-blog col-md-6 col-lg-4">
-                            <a target="_blank" className="text-white" href="https://abuhasanrumi.github.io/RayBim-New/">
+                            <a target="_blank" rel="noopener noreferrer" className="text-white" href="https://abuhasanrumi.github.io/RayBim-New/">
                                 <img className="card-img-top" src={project4} alt="Card image cap" />
                                 <div className="card-body blog-text">
                                     <h5 className="card-title blog-title">RayBim Technologies</h5>

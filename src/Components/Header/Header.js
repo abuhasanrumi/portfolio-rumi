@@ -29,7 +29,7 @@ const Header = () => {
                             <NavLink exact activeClassName="active" to="/contact" className="nav-link navigation-item px-3 pr-md-4" >Contact<span className="sr-only">(current)</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <a target="_blank" className="nav-link navigation-item resume px-3 mt-2 mt-md-0 d-inline-block" href="https://drive.google.com/file/d/1JoEhI-zfcg_Qr4BKUTveHmlPvkzNoXlb/view?usp=sharing">Resume<span className="sr-only">(current)</span></a>
+                            <a target="_blank" rel="noopener noreferrer" className="nav-link navigation-item resume px-3 mt-2 mt-md-0 d-inline-block" href="https://drive.google.com/uc?export=download&id=19cC7fJPgr9NzytnZe0A2FvivrAFCWw5z">Resume<span className="sr-only">(current)</span></a>
                         </li>
 
                     </ul>

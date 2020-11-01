@@ -13,6 +13,7 @@ import ProjectsPage from './Components/ProjectsPage/ProjectsPage';
 import Footer from './Components/Footer/Footer';
 import ContactPage from './Components/ContactPage/ContactPage';
 import BlogPage from './Components/BlogPage/BlogPage';
+import Error from './Components/Error/Error';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           <Switch>
             <Route exact path="/">
               <Home></Home>
+            </Route>
+            <Route path="*">
+              <Error></Error>
             </Route>
             <Route exact path="/home">
               <Home></Home>

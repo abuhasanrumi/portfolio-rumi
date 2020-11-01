@@ -14,8 +14,8 @@ const hero = () => {
             <p className="hero-text text-white-50 py-3 mono-text">I'm a front-end developer based in Feni, Bangladesh specializing <br className="d-none d-md-block" />in building (and occasionally designing) exceptional websites<br className="d-none d-md-block" /> with latest technologies.</p>
 
             <div className="hero-buttons mono-text">
-                <a target="_blank" className="btn hero-btn about-btn py-2 px-3 mr-2 py-md-3 px-md-4 mr-md-4" href="https://drive.google.com/file/d/1JoEhI-zfcg_Qr4BKUTveHmlPvkzNoXlb/view?usp=sharing">Download Resume</a>
-                <a className="btn hero-btn touch-btn py-2 px-3 py-md-3 px-md-4" href="mailto:message.rumi@gmail.com">Get In Touch</a>
+                <a target="_blank" rel="noopener noreferrer" className="btn hero-btn about-btn py-2 px-3 mr-2 py-md-3 px-md-4 mr-md-4" href="https://drive.google.com/uc?export=download&id=19cC7fJPgr9NzytnZe0A2FvivrAFCWw5z">Download Resume</a>
+                <a className="btn hero-btn touch-btn py-2 px-3 py-md-3 px-md-4" href="/contact">Get In Touch</a>
             </div>
         </div>
     );

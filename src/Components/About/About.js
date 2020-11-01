@@ -1,7 +1,6 @@
 import React from 'react';
 import './About.css'
 import rumi from '../../images/rumi.jpg'
-import Footer from '../Footer/Footer';
 
 const About = () => {
     return (
@@ -41,7 +40,7 @@ const About = () => {
                     </div>
                     <div className="col-md-6 d-flex align-items-center my-5 pt-2">
                         <div className="wrapper m-auto ">
-                            <img className="img-fluid about-img" src={rumi} alt="" />
+                            <img className="img-fluid about-img" src={rumi} alt="Abu Hasan Rumi - Frontend Developer" />
                         </div>
 
                     </div>
