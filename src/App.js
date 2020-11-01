@@ -25,9 +25,6 @@ function App() {
             <Route exact path="/">
               <Home></Home>
             </Route>
-            <Route path="*">
-              <Error></Error>
-            </Route>
             <Route exact path="/home">
               <Home></Home>
             </Route>
@@ -42,6 +39,9 @@ function App() {
             </Route>
             <Route exact path="/contact">
               <ContactPage></ContactPage>
+            </Route>
+            <Route path="*">
+              <Error></Error>
             </Route>
           </Switch>
           <Footer></Footer>
